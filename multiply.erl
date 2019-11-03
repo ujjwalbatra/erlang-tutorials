@@ -10,7 +10,7 @@
 -author("ujjwalbatra").
 -import(io, [fwrite/1]).
 %% API
--export([double/1, triple/1, quadruple/1, intoTen/1]).
+-export([double/1, triple/1, quadruple/1, intoTen/1, byN/2]).
 
 double(X) ->
   2 * X.
@@ -23,3 +23,6 @@ quadruple(X) ->
 
 intoTen(X) ->
   10 * X.
+
+byN(X, N) ->
+  N * X.
