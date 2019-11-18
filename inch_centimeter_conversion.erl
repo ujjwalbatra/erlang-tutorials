@@ -12,6 +12,7 @@
 %% API
 -export([convert/1]).
 
+% {} is a tuple, which is a coumpound datatype with fixed number of items. each item in it is called an element
 convert({inch, X}) ->
   {cm, X * 2.54};
 

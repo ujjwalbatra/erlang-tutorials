@@ -1,5 +1,6 @@
 ../out/
-*.dump
+../erl_crash.dump
 *.iml
 .idea/
 *.beam
+*.dump
